@@ -88,7 +88,7 @@ It is designed to generate clean EPUBs that work well on typical e-readers and t
 
 ### Runtime
 
-- **Python** 3.9+ (tested with CPython 3.x)
+- **Python** 3.12.7+ (tested with CPython 3.x)
 
 - A desktop OS supported by:
   
@@ -194,7 +194,7 @@ In the codebase described:
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/<your-username>/Panel2EPUB.git
+git clone https://github.com/LouisCourrian/Panel2EPUB.git
 cd Panel2EPUB
 ```
 
