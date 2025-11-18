@@ -147,9 +147,7 @@ If you rely on a specific device or app, you should test a few sample books.
 
 ---
 
-## Project structure (suggested)
-
-A typical repository layout might look like:
+## Project structure 
 
 ```text
 panel2epub/
