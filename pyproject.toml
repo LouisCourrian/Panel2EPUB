@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "panel2epub"
+version = "0.1.0"
+description = "Convert image folders or CBZ into fixed-layout EPUBs for manga/comics"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "Louis Courrian"}]
+license = {text = "The Unlicense"}
+dependencies = ["Pillow>=10.0.0"]
+
+[tool.setuptools]
+py-modules = ["convert_to_epub", "panel2epub_gui"]
